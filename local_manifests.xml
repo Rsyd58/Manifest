@@ -15,7 +15,8 @@
   <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="dib12" revision="lineage-21" clone-depth="1" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AL" revision="lineage-21" clone-depth="1" />
   <project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
-
+  <project path="vendor/lineage-priv" name="vendor_extra" remote="Rsyd58" revision="fourteen" clone-depth="1" />
+        
   <remove-project name="android_build" />
     <project path="build/make" name="android_build" remote="Rsyd58" revision="fourteen" clone-depth="1" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
