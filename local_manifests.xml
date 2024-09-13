@@ -6,7 +6,8 @@
   <remote name="AL" fetch="https://github.com/ALprjkt" />
   <remote name="dib12" fetch="https://github.com/dib12" />
   <remote name="panchajaya" fetch="https://gitlab.com/Panchajanya1999" />
-  
+  <remote name="TogoFire" fetch="https://github.com/TogoFire" />
+        
         <!-- Trees -->
   <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Rsyd58" revision="fourteen" clone-depth="1" />
   <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="dib12" revision="lineage-21" clone-depth="1" />
@@ -27,6 +28,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" revision="v4a" />      
   <remove-project name="android_system_sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="Rsyd58" revision="fourteen" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/azure-clang" name="azure-clang" remote="panchajaya" revision="main" clone-depth="1" />
