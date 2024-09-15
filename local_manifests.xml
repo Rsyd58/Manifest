@@ -28,8 +28,8 @@
     <linkfile src="tools" dest="build/tools" />
   </project>-->
 
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" revision="v4a" />    
+  <!--<project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" revision="v4a" />    
   <remove-project name="system_sepolicy" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="Rsyd58" revision="QPR3" clone-depth="1" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="Rsyd58" revision="QPR3" clone-depth="1" />-->
   <project path="prebuilts/clang/host/linux-x86/azure-clang" name="azure-clang" remote="panchajaya" revision="main" clone-depth="1" />
 </manifest>
