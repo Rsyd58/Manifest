@@ -4,11 +4,13 @@
         <!-- Remote -->
   <remote name="Rsyd58" fetch="https://github.com/Rsyd58" />
   <remote name="panchajaya" fetch="https://gitlab.com/Panchajanya1999" />
-
+  <remote name="TogoFire" fetch="https://github.com/TogoFire" />
+        
         <!-- Trees -->
   <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Rsyd58" revision="Alpha" clone-depth="1" />
   <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="Rsyd58" revision="14" clone-depth="1" />
   <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Rsyd58" revision="14" clone-depth="1" />
   <project path="vendor/rsyd-keys" name="vendor_extra" remote="Rsyd58" revision="fourteen" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/azure-clang" name="azure-clang" remote="panchajaya" revision="main" clone-depth="1" />
+    <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" revision="v4a" />      
 </manifest>
