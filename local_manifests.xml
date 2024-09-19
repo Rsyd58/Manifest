@@ -2,6 +2,7 @@
 <manifest>
 
         <!-- Remote -->
+  <remote name="aosp-mirror" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />       
   <remote name="Rsyd58" fetch="https://github.com/Rsyd58" />
   <remote name="AL" fetch="https://github.com/ALprjkt" />
   <!--<remote name="dib12" fetch="https://github.com/dib12" />-->
@@ -19,6 +20,5 @@
   <project path="vendor/rsyd-keys" name="vendor_extra" remote="Rsyd58" revision="fourteen" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/azure-clang" name="azure-clang" remote="panchajaya" revision="main" clone-depth="1" />
   <project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
-  <remove-project name="android_vendor_gms" />      
-  <project path="vendor/gms" name="android_vendor_gms" remote="Rsyd58-gitea" revision="15" clone-depth="1" />     
+  <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp-mirror" revision="refs/tags/android-11.0.0_r46" />
 </manifest>
