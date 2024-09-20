@@ -20,5 +20,5 @@
   <project path="vendor/rsyd-keys" name="vendor_extra" remote="Rsyd58" revision="fourteen" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/azure-clang" name="azure-clang" remote="panchajaya" revision="main" clone-depth="1" />
   <project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
-  <!--<project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp-mirror" revision="refs/tags/android-11.0.0_r46" />-->
+  <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp-mirror" revision="refs/tags/android-11.0.0_r46" />
 </manifest>
