@@ -19,6 +19,8 @@
   <project path="vendor/rsyd-keys" name="vendor_extra" remote="Rsyd58" revision="fourteen" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/azure-clang" name="azure-clang" remote="panchajaya" revision="main" clone-depth="1" />
   <project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r530567" name="android_prebuilts_clang_host_linux-x86_clang-r530567" remote="crdroid-gitlab" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r530567" remote="crdroid-gitlab" clone-depth="1" />      
+  <project path="prebuilts/clang/host/linux-x86/clang-r530567" name="android_prebuilts_clang_host_linux-x86_clang-r530567" remote="crdroid-gitlab" revision="14.0" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r530567" remote="crdroid-gitlab" revision="14.0" clone-depth="1" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />      
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp-mirror" revision="refs/tags/android-14.0.0_r67" clone-depth="1" />      
 </manifest>
