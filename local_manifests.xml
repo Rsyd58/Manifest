@@ -5,10 +5,9 @@
   <remote name="aosp-mirror" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />       
   <remote name="Rsyd58" fetch="https://github.com/Rsyd58" />
   <remote name="AL" fetch="https://github.com/ALprjkt" />
-  <!--<remote name="dib12" fetch="https://github.com/dib12" />-->
+  <remote name="crdroid-gitlab" fetch="https://gitlab.com/crdroidandroid" />-->
   <remote name="panchajaya" fetch="https://gitlab.com/Panchajanya1999" />
-  <!--<remote name="TogoFire" fetch="https://github.com/TogoFire" />-->
-  <remote name="Rsyd58-gitea" fetch="https://gitea.com/Rsyd58" />
+  <remote name="TogoFire" fetch="https://github.com/TogoFire" />        
         
         <!-- Trees -->
   <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="Rsyd58" revision="15" clone-depth="1" />
@@ -20,4 +19,6 @@
   <project path="vendor/rsyd-keys" name="vendor_extra" remote="Rsyd58" revision="fourteen" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/azure-clang" name="azure-clang" remote="panchajaya" revision="main" clone-depth="1" />
   <project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r530567" name="android_prebuilts_clang_host_linux-x86_clang-r530567" remote="crdroid-gitlab" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r530567" remote="crdroid-gitlab" clone-depth="1" />      
 </manifest>
