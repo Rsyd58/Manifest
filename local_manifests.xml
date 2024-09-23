@@ -5,7 +5,7 @@
   <remote name="aosp-mirror" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />       
   <remote name="Rsyd58" fetch="https://github.com/Rsyd58" />
   <remote name="AL" fetch="https://github.com/ALprjkt" />
-  <remote name="crdroid-gitlab" fetch="https://gitlab.com/crdroidandroid" />-->
+  <remote name="crdroid-gitlab" fetch="https://gitlab.com/crdroidandroid" />
   <remote name="panchajaya" fetch="https://gitlab.com/Panchajanya1999" />
   <remote name="TogoFire" fetch="https://github.com/TogoFire" />        
         
@@ -20,5 +20,6 @@
   <project path="prebuilts/clang/host/linux-x86/azure-clang" name="azure-clang" remote="panchajaya" revision="main" clone-depth="1" />
   <project path="platform/external/Camera" name="platform_external_Camera" remote="AL" revision="14" clone-depth="1" />
   <remove-project name="android_hardware_qcom_audio" />
-  <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom-caf_audio_msm8953" revision="15" remote="Rsyd58" />        
+  <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom-caf_audio_msm8953" revision="15" remote="Rsyd58" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" revision="v4a" />                
 </manifest>
